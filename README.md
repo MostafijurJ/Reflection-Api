@@ -20,7 +20,7 @@ public class Info {
 ```java  
 Class<?> clazz = Info.class;
 ````
-`Step 1:` It will get all the fields  of **info ** class which can be  **public or private**.
+`Step 1:` It will get all the fields  of **info** class which can be  **public or private**.
 ```java
  Field[] fields =  clazz.getDeclaredFields();
 ```
