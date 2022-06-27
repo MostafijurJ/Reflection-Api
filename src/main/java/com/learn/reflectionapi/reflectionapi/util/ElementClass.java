@@ -1,6 +1,6 @@
-package com.example.reflections.util;
+package com.learn.reflectionapi.reflectionapi.util;
 
-import com.example.reflections.model.Info;
+import com.learn.reflectionapi.reflectionapi.model.Info;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;
