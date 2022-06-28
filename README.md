@@ -20,11 +20,11 @@ public class Info {
 ```java  
 Class<?> clazz = Info.class;
 ````
-`Step 1:` It will get all the fields  of **info** class which can be  **public or private**.
+`Step 1:` It will get all declared fields  of **info** class which can be  **public or private**.
 ```java
  Field[] fields =  clazz.getDeclaredFields();
 ```
-`Step 2:` It will get all the fields  of **info** class which are **public** field. by using this, it returned all the public fields only of **info** class.
+`Step 2:` It will get all the fields  of **info** class which are **public** fields including inherited. by using this, it returned all the public fields only of **info** class.
 ````java
  Field[] publicFields =  clazz.getFields();
 ````
